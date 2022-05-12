@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="object.js"></script>
+    <title>Document 005</title>
+  </head>
+  <body
+    style="
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+    "
+  >
+    <h1>Objektas</h1>
+    <h2>Namų darbų sąlyga:</h2>
+    <div style="max-width: 500px">
+      <h3 style="font-weight: normal">
+        <b>A.</b> Sukurti 100 sąskaitų masyvą.
+      </h3>
+      <p>Kiekviena sąskaita yra objektas ir turi po 5 savybes:</p>
+      <ul>
+        <li><b>number:</b> pagal taisykle INV001, INV002, … INV099, INV100;</li>
+        <li>
+          <b>products:</b> masyvas random ilgio nuo 1 iki 10; products masyvo
+          elementai objektai, turintys po 4 savybes:
+          <ul>
+            <li>
+              <b>title:</b> random iš products masyvo (vienoje sąskaitoje gali
+              būti keli vienodi produktai. Vistiek jų kainos bus skirtingos);
+            </li>
+            <li>
+              <b>price:</b> random skaičius su kableliu nuo 1.00 iki 100.00;
+            </li>
+            <li><b>amount:</b> random skaičius nuo 1 iki 20;</li>
+            <li><b>total:</b> price ir amount sandauga.</li>
+          </ul>
+        </li>
+        <li><b>total:</b> visų products masyvo elementų total suma</li>
+        <li><b>vat:</b> 21% nuo total</li>
+        <li><b>grandTotal:</b> vat ir total suma</li>
+      </ul>
+
+      <h3 style="font-weight: normal">
+        <b>B.</b> Sugeneruotame (ne generavimo metu!) masyve paskaičiuoti ir
+        konsolėje atspausdinti visų sąskaitų grandTotal sumą, produktų sąrašą
+        prie kiekvieno produkto pavadinimo pridedant koks to produkto kiekis yra
+        visose sąskaitose bendrai ir už kokią bendrą sumą.
+      </h3>
+      <p>Pvz:</p>
+      <ol>
+        <li>Dviratis 35 479.55</li>
+        <li>Triratis 10 457.22</li>
+        <li>…..</li>
+        <li>Medinė dėžė 47 1025.74</li>
+      </ol>
+    </div>
+  </body>
+</html>
